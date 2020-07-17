@@ -2,6 +2,9 @@
 ## API
 ![alt text](https://github.com/kishorkuttan/Deep-Virtual-Try-On/blob/master/flask_demo.gif)
 
+## Android Application
+![alt text](https://github.com/kishorkuttan/Deep-Virtual-Try-On/blob/master/dvtron_android.gif)
+
 ```
 
 ## Related Publications
