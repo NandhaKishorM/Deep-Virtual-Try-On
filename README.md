@@ -1,5 +1,6 @@
-
-
+# Demo
+## API
+![alt text](https://github.com/kishorkuttan/Deep-Virtual-Try-On/blob/master/flask_demo.gif)
 
 ```
 
