@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <script type='text/javascript'>
+function preview_image(event) 
+{
+ var reader = new FileReader();
+ reader.onload = function()
+ {
+  var output = document.getElementById('output_image');
+  output.src = reader.result;
+ }
+ reader.readAsDataURL(event.target.files[0]);
+}
+</script>
+    <title>VTON</title>
+ 
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="../static/jumbotron-narrow.css" rel="stylesheet">
+
+    <link href="../static/style.css" rel="stylesheet">
+ 
+ 
+</head>
+ 
+<body>
+ 
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active btn"><a href="#">Home</a>
+                    </li>
+                    
+                    </li>
+                </ul>
+            </nav>
+          
+        </div>
+ 
+        <div class="jumbotron">
+            <h1>Upload Successful</h1>
+            <p> <img src="{{url_for('static', filename='images/success.png')}}"></p>
+            <h2> Select your desired dress </h2>
+            <p class="lead"></p>
+	       <form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+            <input id="file-picker" type="file" name="file" accept="image/*" class="hidden" onchange="preview_image(event)">
+           
+            <label for="file-picker" class="btn btn-lg btn-success">Select file</label>
+            
+            <br> </br>
+               <img id="output_image"/>
+              <button id="btnFlipV" class="btn btn-lg btn-success" type="submit" name="match" >Submit</button>
+             
+		 </form>
+      
+        </div>
+ 
+        <div class="row marketing">
+            <div class="col-lg-6">
+          
+            </div>
+ 
+            <div class="col-lg-6">
+                
+          
+ 
+              
+            </div>
+        </div>
+ 
+        <footer class="footer">
+           
+        </footer>
+ 
+    </div>
+</body>
+ 
+</html>
+

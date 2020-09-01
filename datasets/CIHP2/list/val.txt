@@ -1,0 +1,1 @@
+/images/person.jpg /edges/person.png
