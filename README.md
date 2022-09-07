@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/kishorkuttan/Deep-Virtual-Try-On/blob/master/LICENSE)
 # Note
 
-Currently it is on research stage and I am improving the code. Soon I will release the notebook for training and inference
+Currently it is on research stage and I am improving the code. Soon I will release the notebook for training and inference.
 
 
 ## API
