@@ -25,7 +25,7 @@ Currently it is on research stage and I am improving the code. Soon I will relea
 ## Dataset preprocessing
 ### Pose keypoints. Use the Openpose, and put the keypoints file in "./dataset/pose_coco".
 ### Semantic parsing. Use the CIHP_PGN, and put the parsing results in "./dataset/parse_cihp".
-### Cloth mask. Use the removebg api or holistically-nested-edge-detection for the cloth mask, and put the mask in "./dataset/cloth_mask".
+### Cloth mask. Use the removebg api or holistically-nested-edge-detection for the cloth mask, and put the mask in "./dataset/cloth_mask"..
 ## Coarse-to-fine training
 ### Download the VGG19 pretrained checkpoint
 ### cd vgg_model/
